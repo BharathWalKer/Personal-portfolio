@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+width: min-content;
+position: relative;
+top: 20px;
+left: 40px;
+}
+.selected{
+    background-color:#4C84FF;
+    width: 200%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+}
+.option{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    margin-top: 5px; 
+    
+}
+.option{
+    opacity: 0;
+    display: none;
+}
+.option-active{
+    opacity: 1;
+    display: block;
+}
+.option li{
+    list-style: none;
+}
+.option li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.option-b{
+    background-color: rgb(241, 152, 214);
+    width: 200%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 2px;
+    transition: 0.2s ease-in;
+}
+.option-b:hover{
+    transform: scale(0.9);
+    background-color: pink;
+}
+.option-a:hover{
+    transform: scale(0.9);
+    background-color: pink;
+}
+.option-a{
+    background-color: rgb(241, 152, 214);
+    width: 200%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.2s ease-in;
+    
+}
+.image{
+    padding: 10px;
+    background: pink;
+    width: 100%;
+   
+}
+.image img{
+    overflow-wrap:break-word;
+    width: 100%;
+}
+.call-back{
+    width: min-content;
+    position: absolute;
+    top: 20px;
+    right: 15%;
+   
+}
+.call-back a{
+    font-size: 20px;
+    background-color: #4C84FF;
+    width: 200%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.2s ease-in;
+    text-decoration: none;
+   
+}
+.call-back a:hover{
+    transform: scale(1.1);
+}
